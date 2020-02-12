@@ -1,5 +1,5 @@
 .grid { 
- width: 100%; 
+ width: 95%; 
 /* well, duh */
 display: grid;
 /* here we save the value of mininum size of a card in a variable*/
@@ -14,23 +14,23 @@ grid-gap: 1rem;
 
 body {
 background: #efefef;
-padding: 1rem;
 font-family: sans-serif;
 width: 100vw;
+height: 100vh;
 }
 
 header {
+padding-top: 10vh;
 width: 100%;
 height: 20vh;
 background-color: #000000;
 color: white;
 font-size: 42px;
 text-align: center;
-padding: 50px
 }
 
 li {
-padding: 5rem 1rem;
+padding: 5rem 0;
 text-align: center;
 font-size: 1.2rem;
 background: #70e6b5;

@@ -1,11 +1,12 @@
-.grid {  
+.grid { 
+ width:100%; 
 /* well, duh */
 display: grid;
 /* here we save the value of mininum size of a card in a variable*/
 --card-min-size: 16rem;
 /* --> place as many items as you can in a row, but they can't be smaller than --card-min-size 
-Since their maximun is set at 1fr (one fraction), they will expand as much as they can, 
-and one item can take up the whole width of the page */
+Since their maximun is set at 1fr (one fraction) = 100% of the rest of the space,
+they will expand as much as they can, and one item can take up the whole width of the page */
 grid-template-columns: repeat(auto-fill, minmax(var(--card-min-size), 1fr));
 /* space between each card */
 grid-gap: 1rem;
